@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>お問い合わせ - ハムナビ</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #FFF8E7;
+        margin: 0;
+        padding: 20px;
+    }
+    #header {
+        background-color: #FCE4B2;
+        color: #5C3A28;
+        text-align: center;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    #form-container {
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #FFFFFF;
+        border: 1px solid #F5CBA7;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 500px;
+    }
+    label {
+        display: block;
+        color: #5C3A28;
+        margin-bottom: 5px;
+    }
+    input, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        background-color: #FCE4B2;
+        color: #5C3A28;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #FFD699;
+    }
+</style>
+</head>
+<body>
+<div id="header">
+    <h1>お問い合わせ</h1>
+</div>
+<div id="form-container">
+    <form action="send_form.php" method="post">
+        <label for="name">お名前:</label>
+        <input type="text" id="name" name="name" placeholder="例: 山田 太郎" required>
+        
+        <label for="email">メールアドレス:</label>
+        <input type="email" id="email" name="email" placeholder="例: example@example.com" required>
+        
+        <label for="message">お問い合わせ内容:</label>
+        <textarea id="message" name="message" rows="5" placeholder="お問い合わせ内容を入力してください" required></textarea>
+        
+        <button type="submit">送信</button>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@charset "utf-8";
+#nav ul {
+    list-style: none;
+    padding: 0;
+}#header h1 img {
+    height: 50px;
+    text-shadow: 0px 0px #000000;
+    -webkit-box-shadow: 0px 0px #000000;
+    box-shadow: 0px 0px #000000;
+    border-width: 10px;
+}

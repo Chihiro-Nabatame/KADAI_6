@@ -1,0 +1,7 @@
+@charset "utf-8";
+#footer {
+    background-color: #F5DEB3; /* 明るいベージュ */
+    color: #4B2E1F; /* テキスト色を調整 */
+    text-align: center;
+    padding: 10px;
+}

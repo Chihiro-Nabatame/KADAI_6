@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url("nav.css");
+
+#header{
+	padding-top: 20px;
+    background-color: #FFE4B5; 
+    color: #4B2E1F; 
+    text-align: center;
+}
+#header h1 img {
+    border-width: 5px;
+    background-color: #910002;
+    -webkit-box-shadow: 0px 0px #009530;
+    box-shadow: 0px 0px #009530;
+}
+#header h1 img {
+    height: 30px;
+    width: 30px;
+    float: none;
+    clear: none;
+    border-width: 5px;
+}
+#article h2 {
+    font-family: "游明朝";
+}
+#header h1 {
+    font-family: "游明朝";
+}
+#article #section1 h3 {
+    color: #FFAE00;
+}
+.key {
+    background-color: #D2B48C;
+}
+#article #section1 .article {
+}
+
+#article #section1 .article {
+}
+#article #section1 .article {
+    border-width: 0px;
+
+
+}
+#article #section1 .article {
+}
+#article #section1 .article {
+    color: #FF8900;
+}
